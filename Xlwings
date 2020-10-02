@@ -1,0 +1,6 @@
+import xlwings as xl
+#创建工作簿
+app=xl.App(visible=True,add_book=False)
+workbook=app.books.add()
+#App是xlwings的函数，其中visible代表窗口可见性，add_book代表是否新建工作簿
+#
